@@ -5,7 +5,7 @@ import {
 const ProtectedRoute = ({
   children,
 }: {
-  children: JSX.Element;
+  children: ): React.ReactElement;
 }) => {
   const token =
     localStorage.getItem(
